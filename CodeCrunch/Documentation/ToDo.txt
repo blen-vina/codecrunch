@@ -1,0 +1,44 @@
+Database design
+Answer
+- label = correct, wrong1, wrong2
+
+
+Working needs more refinement
+1. Create the database design. [051624]
+2. Create Login [051624]
+3. Show correct application for different user role. [051724]
+4. Create Registration (Create Account Feature) [052024]
+
+To Do
+5. Manage Question [052024]
+5.5 Create Question
+5.5 view questions 
+	[1] add questions and answers in DB [052024]
+	[2] Learn how to show each of questions in a card type object (No enough knowledge yet) 
+	[2] Show questions in a data grid view
+	[3] Create sorts/filter (Later)
+5.6 update questions
+5.7 delete questions
+6. Manage Quiz [051724]
+7. Edit Profile [051724]
+
+
+Student
+- take quiz (working, and the difficulty level conditions)
+[/] >>> validate answer not working properly correct answer [0] user answer [1]
+[/] lack random pick of questions and answers
+[/] number of questions depending on the difficulty level
+[/] lack random pick of questions
+
+- view result (report crystal report) (Lacking points counter)
+>>> Bug on report
+ - should have overview report for summary of quiz (quiz difficulty, quiz category, time it took to finish the quiz, total score out of how many questions)
+ - have a sub report with details of the quiz with questions, correct answer, wrong answer, and correct(check)
+
+>>> 
+Instructor
+- manage question (Done)
+- manage answers (Done)
+Admin
+- manage acounts (Done)
+
